@@ -1,0 +1,37 @@
+
+<!doctype html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107473828-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107473828-2');
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Will your face hurt outside?</title>
+</head>
+
+<body>
+
+    <div id="details">Loading...</div>
+
+    <div id="coords">Getting coordinates...</div>
+
+    <div id="weather">Getting weather...</div>
+    
+
+    <div class="marquees">
+        <marquee behavior="scroll" direction="left">Brought to you by AccuWeather API</marquee>
+    </div>
+
+    <!-- NOTE: make sure you load scripts after the html has fully loaded -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src ="apicall.js"></script>
+
+</body>
